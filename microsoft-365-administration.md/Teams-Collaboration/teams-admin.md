@@ -12,17 +12,14 @@ To create a new Team in Microsoft Teams Admin Center:
 List all Teams in an organization:  
 ```powershell
 Get-Team
+```
 Create a new Team:
-
-powershell
-Copy
-Edit
+```
 New-Team -DisplayName "Project Team" -Description "Team for Project X"
-Add a user to a Team:
+```
 
-powershell
-Copy
-Edit
+Add a user to a Team:
+```
 Add-TeamUser -GroupId team-id -User user@domain.com
 ```
 
