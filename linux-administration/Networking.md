@@ -1,7 +1,3 @@
-Here’s the **`Networking.md`** file for your **Linux Administration** subfolder. This file documents your hands-on experience with Linux networking troubleshooting and configurations.  
-
----
-
 ```md
 # **Networking Troubleshooting & Configuration**  
 
