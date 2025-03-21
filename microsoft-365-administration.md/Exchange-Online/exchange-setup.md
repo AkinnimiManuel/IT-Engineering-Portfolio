@@ -12,18 +12,14 @@ To create a shared mailbox in the Exchange Admin Center:
 Create a shared mailbox:  
 ```powershell
 New-Mailbox -Shared -Name "Support" -PrimarySmtpAddress support@domain.com
+```
 
 List all mailboxes:
-
-powershell
-Copy
-Edit
+```
 Get-Mailbox
+```
 Enable mail forwarding:
-
-powershell
-Copy
-Edit
+```
 Set-Mailbox -Identity user@domain.com -ForwardingAddress forward@domain.com -DeliverToMailboxAndForward $true
 
 ```
