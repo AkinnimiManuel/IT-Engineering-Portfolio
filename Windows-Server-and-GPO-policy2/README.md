@@ -1,4 +1,4 @@
-# 🖥️ IT Support Portfolio – Active Directory & Windows Server  
+# 🖥️ Active Directory & Windows Server  
 
 ## 📌 About  
 This repository showcases my hands-on experience with **Windows Server & Active Directory** in a home lab environment.  
