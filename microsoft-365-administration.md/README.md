@@ -1,84 +1,41 @@
-# **Microsoft 365 Administration – Learning Journey**  
+# **Microsoft 365 Administration**  
 
-_A personal documentation of my hands-on experience with Microsoft 365 Administration._  
+_A documentation of my hands-on experience managing and troubleshooting Microsoft 365 environments._  
 
-## **📌 About This Repository**  
-This repository contains my practical learning experience with **Microsoft 365 Administration**. It includes tasks I performed, scripts I used, troubleshooting steps, and security best practices I implemented.  
+## **📌 About This Section**  
+This section contains my practical experience working with **Microsoft 365 Administration**. It covers user and license management, email configurations, security policies, SharePoint administration, and troubleshooting common Microsoft 365 issues.  
 
 Through this journey, I gained hands-on experience with:  
-✅ **User and License Management**  
-✅ **Microsoft Teams and SharePoint Administration**  
-✅ **Exchange Online Management**  
-✅ **Security and Compliance Configurations**  
-✅ **PowerShell Automation for Microsoft 365**  
+✅ **[User & License Management](User-License-Management/README.md)**  
+✅ **[Exchange Online & Email Configuration](Exchange-Online/README.md)**  
+✅ **[SharePoint & OneDrive Administration](SharePoint-OneDrive/README.md)**  
+✅ **[Microsoft Teams & Collaboration Tools](Teams-Collaboration/README.md)**  
+✅ **[Security & Compliance Policies](Security-Compliance/README.md)**  
 
-## **🛠 Hands-On Tasks & Implementation**  
+## **📂 Repository Structure**  
 
-### **1️⃣ User and License Management**  
-📌 Created and managed users in Microsoft 365 Admin Center  
-📌 Assigned and revoked licenses for users  
-📌 Automated user creation using PowerShell  
-🔹 **PowerShell Script Used:**  
-```powershell
-Connect-MsolService
-New-MsolUser -UserPrincipalName "user@example.com" -DisplayName "New User" -LicenseAssignment "tenant:O365_BUSINESS_PREMIUM"
-```
-
----
-
-### **2️⃣ Microsoft Teams Administration**  
-📌 Created and managed Teams and Channels  
-📌 Configured messaging policies and guest access  
-📌 Set up retention policies for compliance  
-
----
-
-### **3️⃣ Exchange Online Management**  
-📌 Created mailboxes and configured email forwarding  
-📌 Set up mailbox permissions (Send As, Send on Behalf)  
-📌 Implemented email filtering and anti-phishing policies  
-🔹 **PowerShell Script Used to Set Email Forwarding:**  
-```powershell
-Set-Mailbox -Identity "user@example.com" -ForwardingSMTPAddress "anotheruser@example.com"
-```
-
----
-
-### **4️⃣ Security & Compliance Management**  
-📌 Enabled **Multi-Factor Authentication (MFA)** for all users  
-📌 Configured **Conditional Access Policies** in Azure AD  
-📌 Set up **email spam filtering and Safe Links**  
-📌 Managed SharePoint and OneDrive security settings  
-
----
-
-### **5️⃣ PowerShell Automation in Microsoft 365**  
-📌 Automated bulk user creation  
-📌 Managed licenses using PowerShell  
-📌 Generated user login activity reports  
-
-🔹 **PowerShell Script to Monitor User Logins:**  
-```powershell
-Connect-AzureAD
-Get-AzureADAuditSignInLogs | Select-Object UserDisplayName, AppDisplayName, SignInDateTime
-```
-
----
+📁 **[User-License-Management](User-License-Management/README.md)** – Creating and managing users, assigning licenses, and handling groups  
+📁 **[Exchange-Online](Exchange-Online/README.md)** – Setting up and troubleshooting email services, spam filtering, and mail flow rules  
+📁 **[SharePoint-OneDrive](SharePoint-OneDrive/README.md)** – Managing cloud storage, access controls, and permissions  
+📁 **[Teams-Collaboration](Teams-Collaboration/README.md)** – Administering Teams, configuring policies, and troubleshooting  
+📁 **[Security-Compliance](Security-Compliance/README.md)** – Implementing security best practices, MFA, and compliance policies  
 
 ## **🏠 Home Lab Setup**  
-To solidify my learning, I set up a Microsoft 365 practice environment:  
-✔ **Created a Microsoft 365 Developer Tenant**  
-✔ **Integrated Microsoft 365 with Azure AD**  
-✔ **Configured security policies and access controls**  
-✔ **Tested automation scripts for real-world scenarios**  
+To solidify my learning, I tested Microsoft 365 administration tasks using:  
+✔ **Microsoft 365 Admin Center for user management**  
+✔ **Exchange Admin Center for email configurations**  
+✔ **SharePoint Online for document collaboration**  
+✔ **Microsoft Teams for managing communication policies**  
+✔ **Security & Compliance Center for implementing security policies**  
 
 ## **📌 Key Takeaways from My Learning Experience**  
-✅ **Gained practical experience in managing Microsoft 365 services**  
-✅ **Developed PowerShell automation skills for administration tasks**  
-✅ **Learned security best practices for Microsoft 365 environments**  
-
+✅ **Developed hands-on troubleshooting skills for Microsoft 365 services**  
+✅ **Managed users, licenses, and groups effectively**  
+✅ **Configured and secured Exchange Online email services**  
+✅ **Administered SharePoint & OneDrive storage solutions**  
+✅ **Implemented security and compliance best practices**  
 
 ## **📩 Contact**  
 If you’d like to discuss my experience or projects, feel free to reach out:  
-📧 Email: your.email@example.com  
+📧 Email: akinnimiemmanuel@gmail.com  
 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
