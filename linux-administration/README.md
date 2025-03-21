@@ -10,8 +10,8 @@ Through this journey, I gained hands-on experience with:
 ✅ **[Networking Troubleshooting & Configuration](Networking-Issues/README.md)** 
 ✅ **[System Monitoring Management](System-Monitoring-Management/README.md)**
 ✅ **[User Permission](User-Permissions/README.md)**  
-✅ **[Firewall & Security Hardening](Security.md)**  
-✅ **[Bash Scripting for Automation](Bash-Scripting.md)**  
+✅ **[Firewall & Security Hardening](Firewall & Security Hardening/README.md)**  
+✅ **[Bash Scripting for Automation](Bash-Scripting-for-Automation/README.md)**  
 
 ## **🏠 Home Lab Setup**  
 To solidify my learning, I set up a Linux lab environment:  
