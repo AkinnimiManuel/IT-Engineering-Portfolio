@@ -7,22 +7,10 @@ This repository contains my practical learning experience with **Linux administr
 
 Through this journey, I gained hands-on experience with:  
 ✅ **[Linux System Setup & User Management](System-Setup.md)**  
-✅ **[Networking Troubleshooting & Configuration](Networking.md)**  
+✅ **[Networking Troubleshooting & Configuration](linux-administration/Networking-Issues/Networking.md)**  
 ✅ **[File System & Permissions Management](File-System.md)**  
 ✅ **[Firewall & Security Hardening](Security.md)**  
 ✅ **[Bash Scripting for Automation](Bash-Scripting.md)**  
-
----
-
-## **📂 Repository Structure**  
-
-📁 `System-Setup.md` – Setting up Linux, creating users, managing privileges  
-📁 `Networking.md` – Troubleshooting network issues, configuring IPs & DNS  
-📁 `File-System.md` – Managing disk partitions, permissions, file ownership  
-📁 `Security.md` – Configuring firewalls, securing SSH, using Fail2Ban  
-📁 `Bash-Scripting.md` – Automating tasks with Bash scripts  
-
----
 
 ## **🏠 Home Lab Setup**  
 To solidify my learning, I set up a Linux lab environment:  
@@ -31,7 +19,7 @@ To solidify my learning, I set up a Linux lab environment:
 ✔ **Configured a local LAMP server for testing**  
 ✔ **Experimented with Linux security tools like Fail2Ban**  
 
----
+
 
 ## **📌 Key Takeaways from My Learning Experience**  
 ✅ **Developed troubleshooting skills for Linux networking and system errors**  
@@ -39,9 +27,7 @@ To solidify my learning, I set up a Linux lab environment:
 ✅ **Improved security knowledge with firewalls and SSH hardening**  
 ✅ **Enhanced automation skills using Bash scripting**  
 
----
-
 ## **📩 Contact**  
 If you’d like to discuss my experience or projects, feel free to reach out:  
-📧 Email: your.email@example.com  
+📧 Email: akinnimiemmanuel@gmail.com  
 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
