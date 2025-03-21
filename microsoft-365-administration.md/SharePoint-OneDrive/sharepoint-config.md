@@ -12,18 +12,14 @@ To create a SharePoint site:
 Create a new SharePoint site:  
 ```powershell
 New-SPOSite -Url "https://contoso.sharepoint.com/sites/NewSite" -Owner user@domain.com -StorageQuota 1024
-
+```
 List all SharePoint sites:
-
-powershell
-Copy
-Edit
+```
 Get-SPOSite
-Manage OneDrive storage:
+```
 
-powershell
-Copy
-Edit
+Manage OneDrive storage:
+```
 Set-SPOSite -Identity "https://contoso-my.sharepoint.com/personal/user" -StorageQuota 5000
 
 ```
