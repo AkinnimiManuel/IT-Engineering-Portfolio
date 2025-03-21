@@ -14,11 +14,11 @@ Through this journey, I gained hands-on experience with:
 
 ## **📂 Repository Structure**  
 
-📁 **[User-License-Management](User-License-Management/README.md)** – Creating and managing users, assigning licenses, and handling groups  
-📁 **[Exchange-Online](Exchange-Online/README.md)** – Setting up and troubleshooting email services, spam filtering, and mail flow rules  
-📁 **[SharePoint-OneDrive](SharePoint-OneDrive/README.md)** – Managing cloud storage, access controls, and permissions  
-📁 **[Teams-Collaboration](Teams-Collaboration/README.md)** – Administering Teams, configuring policies, and troubleshooting  
-📁 **[Security-Compliance](Security-Compliance/README.md)** – Implementing security best practices, MFA, and compliance policies  
+📁 **[User & License Management](User-License-Management/user-management.md)** – Creating and managing users, assigning licenses, and handling groups  
+📁 **[Exchange Online & Email Configuration](Exchange-Online/exchange-setup.md)** – Setting up and troubleshooting email services, spam filtering, and mail flow rules  
+📁 **[SharePoint & OneDrive Administration](SharePoint-OneDrive/sharepoint-config.md)** – Managing cloud storage, access controls, and permissions  
+📁 **[Microsoft Teams & Collaboration Tools](Teams-Collaboration/teams-admin.md)**  – Administering Teams, configuring policies, and troubleshooting  
+📁 **[Security & Compliance Policies](Security-Compliance/security-policies.md)** – Implementing security best practices, MFA, and compliance policies  
 
 ## **🏠 Home Lab Setup**  
 To solidify my learning, I tested Microsoft 365 administration tasks using:  
