@@ -6,8 +6,8 @@ _A documentation of my hands-on experience with Linux system administration and 
 This repository contains my practical learning experience with **Linux administration**. It includes tasks I performed, troubleshooting steps, networking fixes, security configurations, and automation scripts.  
 
 Through this journey, I gained hands-on experience with:  
-✅ **[Linux System Setup & User Management](System-Setup.md)**  
-✅ **[Networking Troubleshooting & Configuration](linux-administration/Networking-Issues/Networking.md)**  
+✅ **[Storage Disk Management](Storage-Disk-Management/README.md)**  
+✅ **[Networking Troubleshooting & Configuration](Networking-Issues/README.md)**  
 ✅ **[File System & Permissions Management](File-System.md)**  
 ✅ **[Firewall & Security Hardening](Security.md)**  
 ✅ **[Bash Scripting for Automation](Bash-Scripting.md)**  
