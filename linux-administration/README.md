@@ -8,7 +8,7 @@ This repository contains my practical learning experience with **Linux administr
 Through this journey, I gained hands-on experience with:  
 ✅ **[Storage Disk Management](Storage-Disk-Management/README.md)**  
 ✅ **[Networking Troubleshooting & Configuration](Networking-Issues/README.md)** 
-✅ **[System Monitoring Management](System-Monitoring-Management/README.md)**
+✅ **[System Monitoring Management](System-Monitoring-Performance/README.md)**
 ✅ **[User Permission](User-Permissions/README.md)**  
 ✅ **[Firewall & Security Hardening](Firewall-&-Security-Hardening/README.md)**  
 ✅ **[Bash Scripting for Automation](Bash-Scripting-for-Automation/README.md)**  
