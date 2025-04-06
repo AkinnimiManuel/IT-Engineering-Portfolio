@@ -65,7 +65,7 @@ This guide documents the steps I followed to install and configure **Windows Ser
   - Gateway: `192.168.x.1`
   - DNS: `8.8.8.8`
 
----
+
 
 ## ⚙️ Basic Configuration
 
@@ -75,3 +75,10 @@ This guide documents the steps I followed to install and configure **Windows Ser
   ```powershell
   Rename-Computer -NewName "WS-DC01" -Restart
 
+
+🧠 Lessons Learned
+Always install Guest Additions early for better usability
+
+Static IPs make domain services much easier to configure
+
+PowerShell is your best friend for automation
