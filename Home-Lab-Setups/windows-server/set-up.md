@@ -22,7 +22,7 @@ This guide documents the steps I followed to install and configure **Windows Ser
   - **CPU**: 2 cores
   - **Disk**: 20 GB
 
-- ![VM ware interface]("images/01-vmware pro application.png")
+- ![VM ware interface](images/01-vmware-pro-application.png)
 
 - ![Installation disk](images/02-selecttheinstallationdisk.png)
 
