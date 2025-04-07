@@ -1,6 +1,8 @@
 # 🪟 Windows Server Setup Guide
 
-This guide documents the steps I followed to install and configure **Windows Server** in my home lab. I used this environment to practice system administration tasks such as Active Directory, DNS, DHCP, file sharing, and more.
+![windows server image](images/windows-server-image.png)
+
+This guide documents the steps I took to install and configure **Windows Server 2022** in my home lab. I used this environment to practice system administration tasks such as Active Directory, DNS, DHCP, file sharing, and more.
 
 
 ## ✅ Requirements
@@ -22,7 +24,7 @@ This guide documents the steps I followed to install and configure **Windows Ser
   - **CPU**: 2 cores
   - **Disk**: 20 GB
 
- ![VM ware interface](images/01-vmware-pro-application.png)i
+ ![VM ware interface](images/01-vmware-pro-application.png)
 
  ![Installation disk](images/02-selecttheinstallationdisk.png)
 
@@ -45,15 +47,17 @@ This guide documents the steps I followed to install and configure **Windows Ser
   - Language: English (United States)
   - Time and currency: English (US)
   - Keyboard: US
+
  ![chhose the language](images/08-start-the-installation.png)
 
-- Choose edition: **Windows Server Standard (Desktop Experience)
+- Choose edition: **Windows Server Standard (Desktop Experience)**
 
  ![Select the standard evaluation](images/09-select-the-standard-evaluation-DE.png)
 
 ### 3. Begin Installation
 
-- Click **Install Now**
+- Installing microsoft server operating system
+
   ![begin installation of the server](images/10-installation-started.png)
 
 
@@ -64,10 +68,10 @@ This guide documents the steps I followed to install and configure **Windows Ser
 - Once installation finishes,I set a strong admin password
  ![choosing an admin password](images/11-choose-the-admin-password.png)
 
-- installation completed
+- Installation completed
   ![installation completed](images/12-server-insallation-completed.png)
 
-- server manager up and running
+- Server manager up and running
  ![server manager](images/13-server-manager-up-and-running.png)
 
 
