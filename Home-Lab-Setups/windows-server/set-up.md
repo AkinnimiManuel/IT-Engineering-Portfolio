@@ -7,7 +7,7 @@ This guide documents the steps I followed to install and configure **Windows Ser
 
 - **Windows Server ISO** (Windows Server 2022)
 - Virtualization platform (VMware)
-- Laptop configuration **2 GB RAM**, **2 CPUs**, and **40 GB** disk space
+- Laptop configuration **2 GB RAM**, **2 CPUs**, and **20 GB** disk space
 - Internet connection for activation and updates
 
 ## 🛠️ Installation Steps
@@ -21,7 +21,7 @@ This guide documents the steps I followed to install and configure **Windows Ser
   - **RAM**: 2096 MB (minimum)
   - **CPU**: 2 cores
   - **Disk**: 20 GB
-![VM ware interface](images/01-vmware pro application.png)
+![VM ware interface]("images/01-vmware pro application.png")
 ![Installation disk](images/02-selecttheinstallationdisk.png)
 ![choosing the server name](images/03-choosetheservername)
 ![select the name of the server](images/04-select-the-name-of-the-server)
@@ -86,7 +86,7 @@ This guide documents the steps I followed to install and configure **Windows Ser
 
 ### 7. Rename the Server
 
-- Open PowerShell or Command Prompt as Admin:
+- I Opened PowerShell as Admin and use the following command to rename my serverto STEF001 and restarted immediately so the changed can take effect:
   ```powershell
   Rename-Computer -NewName "WS-DC01" -Restart
 
