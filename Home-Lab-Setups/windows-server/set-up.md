@@ -22,39 +22,39 @@ This guide documents the steps I followed to install and configure **Windows Ser
   - **CPU**: 2 cores
   - **Disk**: 20 GB
 
-- ![VM ware interface](images/01-vmware-pro-application.png)
+ ![VM ware interface](images/01-vmware-pro-application.png)i
 
-- ![Installation disk](images/02-selecttheinstallationdisk.png)
+ ![Installation disk](images/02-selecttheinstallationdisk.png)
 
-- ![choosing the server name](images/03-choosetheservername.png)
+ ![choosing the server name](images/03-choosetheservername.png)
 
-- ![select the name of the server](images/04-select-the-name-of-the-server.png)
+ ![select the name of the server](images/04-select-the-name-of-the-server.png)
 
-- ![choosing the disk size](images/05-choose-the-disk-size.png)
+ ![choosing the disk size](images/05-choose-the-disk-size.png)
 
 
 ### 2. Mount the ISO & Boot
 
 - I went back to settings to attach the Windows Server ISO to the virtual CD/DVD drive
-- ![Loading the ISO image](images/06-load-the-iso-image.png)
+ ![Loading the ISO image](images/06-load-the-iso-image.png)
 
 - I Started the VM by pressing the play button
-- ![Power on the machine](images/07-power-on-the-machine.png)
+  ![Power on the machine](images/07-power-on-the-machine.png)
 
 - Choose:
   - Language: English (United States)
   - Time and currency: English (US)
   - Keyboard: US
-- ![chhose the language](images/08-start-the-installation.png)
+ ![chhose the language](images/08-start-the-installation.png)
 
-- - Choose edition: **Windows Server Standard (Desktop Experience)
+- Choose edition: **Windows Server Standard (Desktop Experience)
 
-- ![Select the standard evaluation](images/09-select-the-standard-evaluation-DE.png)
+ ![Select the standard evaluation](images/09-select-the-standard-evaluation-DE.png)
 
 ### 3. Begin Installation
 
 - Click **Install Now**
-- ![begin installation of the server](images/10-installation-started.png)
+  ![begin installation of the server](images/10-installation-started.png)
 
 
 ## 🧱 Post-Installation Setup
@@ -62,13 +62,13 @@ This guide documents the steps I followed to install and configure **Windows Ser
 ### 4. Set Administrator Password
 
 - Once installation finishes,I set a strong admin password
-- ![choosing an admin password](images/11-choose-the-admin-password.png)
+ ![choosing an admin password](images/11-choose-the-admin-password.png)
 
--installation completed
-- ![installation completed](images/12-server-insallation-completed.png)
+- installation completed
+  ![installation completed](images/12-server-insallation-completed.png)
 
--server manager up and running
-- ![server manager](images/13-server-manager-up-and-running.png)
+- server manager up and running
+ ![server manager](images/13-server-manager-up-and-running.png)
 
 
 ### 5. Install Guest Additions VMware Tools
