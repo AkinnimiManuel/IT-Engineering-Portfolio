@@ -21,35 +21,40 @@ This guide documents the steps I followed to install and configure **Windows Ser
   - **RAM**: 2096 MB (minimum)
   - **CPU**: 2 cores
   - **Disk**: 20 GB
-![VM ware interface]("images/01-vmware pro application.png")
-![Installation disk](images/02-selecttheinstallationdisk.png)
-![choosing the server name](images/03-choosetheservername)
-![select the name of the server](images/04-select-the-name-of-the-server)
-![choosing the disk size](images/05-choose-the-disk-size)
+
+- ![VM ware interface]("images/01-vmware pro application.png")
+
+- ![Installation disk](images/02-selecttheinstallationdisk.png)
+
+- ![choosing the server name](images/03-choosetheservername)
+
+- ![select the name of the server](images/04-select-the-name-of-the-server)
+
+- ![choosing the disk size](images/05-choose-the-disk-size)
 
 
 ### 2. Mount the ISO & Boot
 
 - I went back to settings to attach the Windows Server ISO to the virtual CD/DVD drive
-![Loading the ISO image](images/06-load-the-iso-image)
+- ![Loading the ISO image](images/06-load-the-iso-image)
 
 - I Started the VM by pressing the play button
-![Power on the machine](images/07-power-on-the-machine)
+- ![Power on the machine](images/07-power-on-the-machine)
 
 - Choose:
   - Language: English (United States)
   - Time and currency: English (US)
   - Keyboard: US
-![chhose the language](images/08-start-the-installation)
+- ![chhose the language](images/08-start-the-installation)
 
 - - Choose edition: **Windows Server Standard (Desktop Experience)
 
-![Select the standard evaluation](images/09-select-the-standard-evaluation-DE)
+- ![Select the standard evaluation](images/09-select-the-standard-evaluation-DE)
 
 ### 3. Begin Installation
 
 - Click **Install Now**
-![begin installation of the server](images/10-installation-started)
+- ![begin installation of the server](images/10-installation-started)
 
 
 ## 🧱 Post-Installation Setup
@@ -57,13 +62,13 @@ This guide documents the steps I followed to install and configure **Windows Ser
 ### 4. Set Administrator Password
 
 - Once installation finishes,I set a strong admin password
-![choosing an admin password](images/11-choose-the-admin-password)
+- ![choosing an admin password](images/11-choose-the-admin-password)
 
 -installation completed
-![installation completed](images/12-server-insallation-completed)
+- ![installation completed](images/12-server-insallation-completed)
 
 -server manager up and running
-![server manager](images/13-server-manager-up-and-running)
+- ![server manager](images/13-server-manager-up-and-running)
 
 
 ### 5. Install Guest Additions VMware Tools
@@ -88,7 +93,7 @@ This guide documents the steps I followed to install and configure **Windows Ser
 
 - I Opened PowerShell as Admin and use the following command to rename my serverto STEF001 and restarted immediately so the changed can take effect:
   ```powershell
-  Rename-Computer -NewName "WS-DC01" -Restart
+  Rename-Computer -NewName "STEFF-001" -Restart
 
 
 🧠 Lessons Learned
