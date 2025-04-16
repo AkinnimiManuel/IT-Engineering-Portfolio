@@ -65,7 +65,7 @@ I opened the CMD as an administartor and typed in the following command
 defrag C: /O
 
 ```
-[cmd-defrag](images/11-cmd-defragcommand.png)
+![cmd-defrag](images/11-cmd-defragcommand.png)
 
 
 ### 4. Malware and Resource Hog Checks
