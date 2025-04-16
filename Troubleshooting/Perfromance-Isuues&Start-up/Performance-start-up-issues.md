@@ -38,14 +38,36 @@ To improve boot time and general responsiveness, I:
 ![disabing-services](images/04-disabling-services.png)
 
 - Removed redundant scheduled tasks.
+- open task scheduler and review active tasks
+- Identify unnecessary tasks
+- I looked for software that has been uninstalled but still has scheduled tasks
+- Disable or delete the task
+![disabling task](images/05-disable-task-scheduler.png)
+
 
 ### 3. Disk Cleanup & System Maintenance
 I performed the following steps to free up system resources:
 - Ran **Disk Cleanup** and deleted temp files.
+![disk clean up](images/06-disk-cleanup.png)
+![disk clean up part 2](images/07-disk-cleanup2.png)
+![disk clean up part 3](images/08-cleanmgr_mpmalg1VbU.gif)
+
 - Cleared browser caches.
 - Emptied recycle bin.
 - Uninstalled unused applications.
+![uninstall unused apps](images/09-uninstall-apps.png)
 - Defragmented HDD (for non-SSD machines).
+![defrag an HDD](images/10.defragment-drive.png)
+
+- Using the Command line 
+I opened the CMD as an administartor and type in the following command
+
+```
+defrag C: /O
+
+```
+[cmd-defrag](images/11-cmd-defragcommand.png)
+
 
 ### 4. Malware and Resource Hog Checks
 I scanned the system using:
