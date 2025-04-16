@@ -71,18 +71,19 @@ defrag C: /O
 ### 4. Malware and Resource Hog Checks
 I scanned the system using:
 - **Windows Defender** (Quick + Full Scan).
-- **Malwarebytes** for PUPs and adware.
-- Checked for any unknown or resource-heavy third-party apps.
+![Windows defender](images/12-malware-scan.png)
+
 
 ### 5. Driver & Windows Updates
 I ensured the system was up-to-date by:
 - Running `Windows Update`.
 - Updating outdated drivers, especially display and storage drivers via **Device Manager** or OEM tools (e.g., HP Support Assistant, Dell Command Update).
+![update-driver](images/13-update-driver.png)
 
 ### 6. Advanced Steps (If Needed)
 For persistent cases, I:
 - Used **Sysinternals Autoruns** to identify hidden startup items.
-- Monitored system boot time using **Event Viewer** (`Event ID 100` under Diagnostics-Performance).
+![sys internals](images/14-sys-internals.gif)
 - Suggested hardware upgrades if RAM or HDD limitations were obvious (e.g., upgrading to SSD or adding more RAM).
 
 ---
@@ -97,7 +98,7 @@ In most cases, performance improved significantly after completing the above ste
 - `msconfig`
 - `Task Manager`
 - `Disk Cleanup`
-- `Malwarebytes`
+- `Windows DEfender`
 - `Device Manager`
 - `Event Viewer`
 - `Autoruns` (Sysinternals)
