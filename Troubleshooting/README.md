@@ -6,10 +6,8 @@ _I Am documenting my hands-on experience diagnosing and resolving hardware-relat
 This section contains my practical experience troubleshooting common hardware issues in IT support. It covers diagnosing CPU and RAM performance problems, fixing disk errors, resolving driver issues, and ensuring system stability.  
 
 Through this journey, I gained hands-on experience with:  
-✅ **[CPU & RAM Performance Issues](CPU-RAM-Issues/README.md)**  
-✅ **[Storage & Disk Troubleshooting](Storage-Disk/README.md)**  
-✅ **[Peripheral & Driver Issues](Peripheral-Drivers/README.md)**  
-✅ **[Overheating & Cooling Solutions](Overheating-Cooling/README.md)**  
+✅ **[WIFI and connectivity issues](WIFI-issues)** 
+✅ **[Performance and Start-up issues](Perfromance-Isuues&Start-up)**
 
 
 ## **📂 Repository Structure**  
