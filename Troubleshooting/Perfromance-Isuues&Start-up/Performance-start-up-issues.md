@@ -28,10 +28,15 @@ Then I accessed **Task Manager** to monitor:
 
 ### 2. Startup Optimization
 To improve boot time and general responsiveness, I:
+
 - Disabled unnecessary startup programs via `Task Manager > Startup`.
 ![Taskmanager](images/01-taskmgr.png)
 ![disabling-start-up-apps](images/02-disablingtaskmgr.gif)
+
 - Ran `msconfig` and disabled non-Microsoft services under the **Services** tab (after hiding all Microsoft entries).
+![msconfig](03-Microsoft-services.png)
+![disabing-services](04-disabling-services.png)
+
 - Removed redundant scheduled tasks.
 
 ### 3. Disk Cleanup & System Maintenance
