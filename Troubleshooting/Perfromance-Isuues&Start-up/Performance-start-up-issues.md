@@ -34,8 +34,8 @@ To improve boot time and general responsiveness, I:
 ![disabling-start-up-apps](images/02-disablingtaskmgr.gif)
 
 - Ran `msconfig` and disabled non-Microsoft services under the **Services** tab (after hiding all Microsoft entries).
-![msconfig](03-Microsoft-services.png)
-![disabing-services](04-disabling-services.png)
+![msconfig](mages/03-Microsoft-services.png)
+![disabing-services](images/04-disabling-services.png)
 
 - Removed redundant scheduled tasks.
 
