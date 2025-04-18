@@ -92,6 +92,7 @@ ipconfig /flushdns
 
 ### 📡 6. Updated the Wi-Fi Adapter Driver
 - Opened **Device Manager** → **Network Adapters**.
+
 ![Device manager](images/28-device-manager.png)
 - Right-clicked the Wi-Fi adapter → **Update Driver** (checked both auto and manual).
 ![Update Driver](images/29-update-driver.png)
@@ -99,8 +100,11 @@ ipconfig /flushdns
 ![choose available driver](images/31-pick-available-driver.png)
 ![pick driver](images/32-choose-the-driver.png)
 - Installing the driver
+
 ![instaling driver](images/33-installing-drivers.png)
+
 - Driver successfully installed
+
 ![Successful installation](images/34-successfully-updated.png)
 
 ### 📡 7. Uninstalled the Wi-Fi Adapter Driver
@@ -114,6 +118,7 @@ ipconfig /flushdns
 
 ### 🔍 8. Used `services.msc` to Restart Critical Network Services
 - Pressed `Win + R`, typed `services.msc`, and hit Enter.
+
 ![Services.msc](images/38-services-msc.png)
 - Located and ensured the following services were **running** and set to **Automatic**:
   - **WLAN AutoConfig**
@@ -131,6 +136,7 @@ ipconfig /flushdns
 
 After restarting the Wi-Fi services and reinstalling the driver, the laptop successfully connected to the Wi-Fi network. Internet access was fully restored and stable. I also educated the user on how to check these settings in case the issue reoccurs.
 - It worked :smile: :grin:
+
 ![It worked](images/42-wifi-working.png)
 
 
