@@ -1,5 +1,11 @@
-# IT-Support-Portfolio
-Welcome to my IT Support Portfolio! This is where I showcase my skills in troubleshooting, system administration, and technical support.  
+# IT-Engineering-Portfolio
+
+🔧 All-in-One Infrastructure Portfolio
+💻 M365 | ☁️ Cloud | 🐧 Linux | 🛠️ IT Support
+
+![IT eng banner](it-eng-portfolio.png)
+
+Welcome to my IT Engineering Portfolio! This is where I showcase my skills in troubleshooting, system administration, and technical support.  
 
 ## 🛠️ Home Lab Setup  
 I have built a **virtual IT lab** on my laptop to practice real-world IT tasks. Here are some key setups:  
@@ -46,7 +52,11 @@ I have built a **virtual IT lab** on my laptop to practice real-world IT tasks. 
 - ✅ Active Directory & Group Policy  
 - ✅ Networking (DNS, DHCP, IP Configuration)  
 - ✅ Remote Support (AnyDesk, TeamViewer, RDP)  
-
+- ✅ Ticketing Systems (Jira, Freshdesk, Zendesk)
+- ✅ Voip Administration
+- ✅ Security
+- ✅ Cloud Administration
+- ✅ Scripting and Automation
 
 
 📩 Contact me: [akinnimiemmanuel@gmail.com] | [LinkedIn Profile]  
