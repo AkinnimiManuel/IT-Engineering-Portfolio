@@ -90,7 +90,7 @@ ipconfig /flushdns
 
 ---
 
-### 📡 6. Updated and Reinstalled the Wi-Fi Adapter Driver
+### 📡 6. Updated the Wi-Fi Adapter Driver
 - Opened **Device Manager** → **Network Adapters**.
 ![Device manager](images/28-device-manager.png)
 - Right-clicked the Wi-Fi adapter → **Update Driver** (checked both auto and manual).
@@ -103,6 +103,8 @@ ipconfig /flushdns
 - Driver successfully installed
 ![Successful installation](images/34-successfully-updated.png)
 
+### 📡 7. Updated and Reinstalled the Wi-Fi Adapter Driver
+
 - Eventually uninstalled the adapter and restarted the system to force a clean reinstall.
 ![uninstall driver](images/35-uninstall-driver.png)
 ![Delete driver](images/36-delete-the-driver-software.png)
@@ -110,7 +112,7 @@ ipconfig /flushdns
 
 ---
 
-### 🔍 7. Used `services.msc` to Restart Critical Network Services
+### 🔍 8. Used `services.msc` to Restart Critical Network Services
 - Pressed `Win + R`, typed `services.msc`, and hit Enter.
 ![Services.msc](images/38-services-msc.png)
 - Located and ensured the following services were **running** and set to **Automatic**:
