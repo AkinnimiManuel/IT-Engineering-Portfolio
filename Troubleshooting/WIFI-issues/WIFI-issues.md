@@ -103,7 +103,7 @@ ipconfig /flushdns
 - Driver successfully installed
 ![Successful installation](images/34-successfully-updated.png)
 
-### 📡 7. Updated and Reinstalled the Wi-Fi Adapter Driver
+### 📡 7. Uninstalled the Wi-Fi Adapter Driver
 
 - Eventually uninstalled the adapter and restarted the system to force a clean reinstall.
 ![uninstall driver](images/35-uninstall-driver.png)
