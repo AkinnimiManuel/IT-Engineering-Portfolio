@@ -3,7 +3,7 @@
 🔧 All-in-One Infrastructure Portfolio
 💻 M365 | ☁️ Cloud | 🐧 Linux | 🛠️ IT Support
 
-![IT eng banner](it-eng-portfolio.png)
+![IT eng banner](github-banner.png)
 
 Welcome to my IT Engineering Portfolio! This is where I showcase my skills in troubleshooting, system administration, and technical support.  
 
