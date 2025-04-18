@@ -1,21 +1,15 @@
-# **Hardware Troubleshooting**  
+# **Troubleshooting**  
 
-_I Am documenting my hands-on experience diagnosing and resolving hardware-related issues in Linux and Windows._  
+_I Am documenting my hands-on experience diagnosing and resolving hardware and software related issues in Linux and Windows._  
 
 ## **📌 About This Section**  
-This section contains my practical experience troubleshooting common hardware issues in IT support. It covers diagnosing CPU and RAM performance problems, fixing disk errors, resolving driver issues, and ensuring system stability.  
+This section contains my practical experience troubleshooting common hardware and siftware issues in IT support. It covers diagnosing CPU and RAM performance problems, fixing disk errors, resolving driver issues, and ensuring system stability.  
 
 Through this journey, I gained hands-on experience with:  
-✅ **[WIFI and connectivity issues](WIFI-issues)** 
-✅ **[Performance and Start-up issues](Perfromance-Isuues&Start-up)**
 
+📁 **[WIFI and connectivity issues](Troubleshooting/WIFI-issues)** 
 
-## **📂 Repository Structure**  
-
-📁 **[CPU-RAM-Issues](CPU-RAM-Issues/README.md)** – Diagnosing slow performance, high CPU usage, and memory leaks  
-📁 **[Storage-Disk](Storage-Disk/README.md)** – Fixing disk errors, partitioning, and troubleshooting SSD/HDD failures  
-📁 **[Peripheral-Drivers](Peripheral-Drivers/README.md)** – Resolving Wi-Fi, Bluetooth, printer, and GPU driver issues  
-📁 **[Overheating-Cooling](Overheating-Cooling/README.md)** – Preventing system overheating and optimizing cooling solutions  
+📁 **[Performance and Start-up issues](Troubleshooting/Perfromance-Isuues&Start-up)**
 
 
 ## **🏠 Home Lab Setup**  
@@ -30,8 +24,3 @@ To solidify my learning, I tested hardware troubleshooting in different environm
 ✅ **Learned to diagnose CPU and RAM bottlenecks effectively**  
 ✅ **Fixed storage-related errors and optimized disk performance**  
 ✅ **Gained experience in resolving driver compatibility problems**  
-
-## **📩 Contact**  
-If you’d like to discuss my experience or projects, feel free to reach out:  
-📧 Email: akinnimiemmanuel@gmail.com
-💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
