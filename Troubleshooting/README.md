@@ -1,4 +1,5 @@
 # **Troubleshooting**  
+![Troubleshoot image](images/troubleshoot-a-computer-main.jpg)
 
 _I Am documenting my hands-on experience diagnosing and resolving hardware and software related issues in Linux and Windows._  
 
