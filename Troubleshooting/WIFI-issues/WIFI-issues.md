@@ -109,7 +109,7 @@ ipconfig /flushdns
 
 ### 📡 7. Uninstalled the Wi-Fi Adapter Driver
 
-- Eventually uninstalled the adapter and restarted the system to force a clean reinstall.
+- Eventually uninstalled the adapter 😥 and restarted the system to force a clean reinstall.
 ![uninstall driver](images/35-uninstall-driver.png)
 ![Delete driver](images/36-delete-the-driver-software.png)
 ![Uninstall driver](images/37-uninstalling.png)
