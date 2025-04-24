@@ -11,7 +11,7 @@ This repository showcases my hands-on experience with **Windows Server & Active 
 ✔️ Implemented **Firewall & Remote Desktop Services (RDS)**  
 
 ## 📁 Contents  
-🔹 [Active Directory Setup](/Domain-Controller-Setup)  
+🔹 [Active Directory Setup](./Domain-Controller-Setup)  
 🔹 [User Management](./Active-Directory/User-Management.md)  
 🔹 [Group Policy Configurations](./Active-Directory/Group-Policy.md)  
 🔹 [Windows Server Network Services](./Windows-Server/DHCP-Setup.md)  
