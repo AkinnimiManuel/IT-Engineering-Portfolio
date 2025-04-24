@@ -1,5 +1,5 @@
 # 🖥️ Active Directory & Windows Server  
-
+![Ad & windows server](/ActiveDirectory.png)
 ## 📌 About  
 This repository showcases my hands-on experience with **Windows Server & Active Directory** in a home lab environment.  
 
@@ -11,10 +11,8 @@ This repository showcases my hands-on experience with **Windows Server & Active 
 ✔️ Implemented **Firewall & Remote Desktop Services (RDS)**  
 
 ## 📁 Contents  
-🔹 [Active Directory Setup](Active-Directory-&-Windows-Server-2022/Domain-Controller-Setup)  
+🔹 [Active Directory Setup](./Active-Directory/Domain-Controller-Setup)  
 🔹 [User Management](./Active-Directory/User-Management.md)  
 🔹 [Group Policy Configurations](./Active-Directory/Group-Policy.md)  
 🔹 [Windows Server Network Services](./Windows-Server/DHCP-Setup.md)  
 
-## 📸 Screenshots  
-![Active Directory Users and Computers](./Active-Directory/Screenshots/ad-users.png)  
