@@ -5,9 +5,11 @@ As part of building my IT support portfolio, I set up a fully functional **Domai
 
 This document outlines the steps I took to install, configure, and test a domain controller from scratch in my home lab environment.
 
+---
+
 ## 🛠️ System Environment  
 - **OS:** Windows Server 2022 Standard (Evaluation)
-- **Lab Type:** Home lab (VirtualBox VM)
+- **Lab Type:** Home lab (VMware Workstation pro)
 - **Specs:**  
   - 2 vCPUs  
   - 2GB RAM  
@@ -20,6 +22,7 @@ This document outlines the steps I took to install, configure, and test a domain
 - Promote the server to a Domain Controller  
 - Verify domain setup and DNS functionality  
 
+---
 
 ## ⚙️ Step-by-Step Setup
 
@@ -37,6 +40,8 @@ Before installing AD DS, I configured a static IP to avoid network issues:
 
 ![Static IP](images/0c-staticIPset.png)
 
+---
+
 ### 3. 🧩 Installed AD DS Role  
 - Opened **Server Manager**
 - Chose **Add Roles and Features**
@@ -53,6 +58,8 @@ Before installing AD DS, I configured a static IP to avoid network issues:
 ![confirm installation](images/08-confirm-installations.png)
 ![installation started](images/09-installation-started.png)
 
+---
+
 ### 4. 🏗️ Promoted the Server to a Domain Controller  
 - Clicked the *Promote this server to a domain controller*
 ![Promote to DC](images/10-installation-completed-promote-the-server.png)
@@ -68,6 +75,7 @@ Before installing AD DS, I configured a static IP to avoid network issues:
 ![Promoted successfully](images/15-AD-services-successful.png)
 - After a reboot, the server became the Domain Controller
 
+---
 
 ### 5. 🔁 Verified the Setup  
 - Logged in with the domain: `MANUELTECH\Administrator`
@@ -85,7 +93,7 @@ Before installing AD DS, I configured a static IP to avoid network issues:
 ## 🧪 Testing  
 To test the domain:
 - I created a Windows 10 client VM
-- Joined it to `stefanlab.local`
+- Joined it to `Manueltech.com`
 - Successfully logged in with domain credentials
 - Verified DNS resolution and Group Policy propagation
 
@@ -104,11 +112,6 @@ This setup is part of my larger Active Directory project, which includes:
 - Group Policy setup for client management  
 - Creating and managing OUs and user accounts  
 - Deploying login scripts and mapped drives  
-
----
-
-## 📂 Repo Notes  
-You can find the scripts, screenshots, and further documentation in the `/assets` and `/configs` folders of this repository.
 
 ---
 
