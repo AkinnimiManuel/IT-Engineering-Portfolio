@@ -8,7 +8,7 @@ This document outlines the steps I took to install, configure, and test a domain
 ---
 
 ## 🛠️ System Environment  
-- **OS:** Windows Server 2022 Standard (Evaluation)
+- **OS:** Windows Server 2022 Standard (Evaluation) and Windows 10 (Client VM)
 - **Lab Type:** Home lab (VMware Workstation pro)
 - **Specs:**  
   - 2 vCPUs  
@@ -63,7 +63,7 @@ Before installing AD DS, I configured a static IP to avoid network issues:
 ### 4. 🏗️ Promoted the Server to a Domain Controller  
 - Clicked the *Promote this server to a domain controller*
 ![Promote to DC](images/10-installation-completed-promote-the-server.png)
-- Created a new forest: `stefanlab.local`
+- Created a new forest: `Manueltech.com`
 ![Created a new forest](images/11-set-a-domain-name.png) 
 
 - Set a Directory Services Restore Mode (DSRM) password
@@ -93,9 +93,11 @@ Before installing AD DS, I configured a static IP to avoid network issues:
 ## 🧪 Testing  
 To test the domain:
 - I created a Windows 10 client VM
+![Client VM](images/19-ClientJoin.png)
+
 - Joined it to `Manueltech.com`
-- Successfully logged in with domain credentials
-- Verified DNS resolution and Group Policy propagation
+![Client join](images/20-clientJoin2.png)
+
 
 ---
 
@@ -117,7 +119,3 @@ This setup is part of my larger Active Directory project, which includes:
 
 ## 🙌 Final Thoughts  
 This project helped me solidify my understanding of how domain controllers work in real-world IT support environments. Being hands-on with this setup was a major confidence booster in my transition to enterprise-grade IT systems.
-
----
-
-Let me know if you'd like the GitHub folder structure or README linked to this project as well.
