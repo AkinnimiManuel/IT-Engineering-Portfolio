@@ -1,5 +1,5 @@
 # Domain Controller Setup  
-![Active directory image](activeDirectory2.png)
+![Active directory image](images/activeDirectory2.png)
 
 ## Overview  
 This project highlights my ability to set up and configure a **Domain Controller (DC)** in an **Active Directory (AD) environment**. It includes key tasks such as installing **Active Directory Domain Services (AD DS)**, configuring **DNS**, promoting the server to a domain controller, and implementing **security policies** using Group Policy Objects (GPOs).  
