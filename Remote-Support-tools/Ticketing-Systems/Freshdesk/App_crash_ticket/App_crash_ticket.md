@@ -76,7 +76,7 @@ Each time I tried to open chrome it keeps crashing after a few seconds. I alread
 
 ✅ Chrome opened and ran normally after reinstall.
 - For more information on how i solved the issue using teamviewer
-[App crash teamviewr link](Remote-Support-tools/Remote-Access-Tools/TeamViewer/App_crash/App_crash.md)
+[App crash teamviewr link](/Remote-Access-Tools/TeamViewer/App_crash/App_crash.md)
 
 ---
 
