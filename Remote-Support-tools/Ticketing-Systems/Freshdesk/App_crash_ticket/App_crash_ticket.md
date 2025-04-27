@@ -26,7 +26,7 @@ Simulate the lifecycle of a real-world IT support ticket using **Freshdesk** for
 
 ### 1. 🧑‍💻 Created a Freshdesk User Account on the VM
 - Opened Freshdesk portal on the Windows 10 VM.
-- Registered a simulated user (e.g., `john.doe@fakeemail.com`).
+- Registered a simulated user.
 - Submitted a **new support ticket** titled:  
   > "Chrome Crashing on Startup"
 
@@ -76,7 +76,7 @@ Each time I tried to open chrome it keeps crashing after a few seconds. I alread
 
 ✅ Chrome opened and ran normally after reinstall.
 - For more information on how i solved the issue using teamviewer
-[App crash teamviewr link](./Remote-Access-Tools/TeamViewer/App_crash/App_crash.md)
+[App crash teamviewr link](Remote-Support-tools/Remote-Access-Tools/TeamViewer/App_crash/App_crash.md)
 
 ---
 
@@ -89,7 +89,7 @@ Each time I tried to open chrome it keeps crashing after a few seconds. I alread
 
 ---
 
-## 5. 📌 ## Real-World Practice: SLA-Adherent Workflow
+## 5. 📌 Real-World Practice: SLA-Adherent Workflow
 
 In this simulation, I treated every support case with strict attention to SLA timelines defined in my fictional company's SLA policy. Each ticket includes:
 
@@ -101,7 +101,7 @@ In this simulation, I treated every support case with strict attention to SLA ti
 This reinforces my understanding of real support desk performance expectations.
 ![SLA targets](images/06-SLA-Targets.png)
 
-
+- SLA log spreadsheet
 ![SLA policy](images/11-SLA-spreadsheet.png)
 
 ---
