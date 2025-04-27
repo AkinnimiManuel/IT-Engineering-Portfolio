@@ -1,5 +1,7 @@
 # Remote Support Tools
 
+![Remote support picture](remotesupport.jpg)
+
 Hi there! I'm Emmanuel Stefan, and this folder is part of my IT Support portfolio. It showcases my hands-on experience and growing expertise with **remote support tools**, including both **ticketing systems** and **remote access software**.
 
 As someone passionate about providing efficient tech support and streamlining issue resolution, I’ve been exploring and documenting tools that are widely used in real-world IT environments.

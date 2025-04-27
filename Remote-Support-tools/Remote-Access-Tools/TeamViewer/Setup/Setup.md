@@ -1,4 +1,5 @@
 # TeamViewer Setup Guide
+![Teamviewer image](images/teamviewer.jpg)
 
 Welcome to my TeamViewer documentation!  
 As part of my remote support toolkit, I use TeamViewer for secure, real-time remote access and support. It’s one of the most popular tools in the industry, and this guide documents how I set it up, key features I explored, and how I use it for IT support purposes.

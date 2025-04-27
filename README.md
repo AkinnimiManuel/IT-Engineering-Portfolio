@@ -10,7 +10,7 @@ Welcome to my IT Engineering Portfolio! This is where I showcase my skills in tr
 ## 🛠️ Home Lab Setup  
 I have built a **virtual IT lab** on my laptop to practice real-world IT tasks. Here are some key setups:  
 
-✅ **Windows Server 2022 with Active Directory** – [Read More](./windows-server.md)  
+✅ **Windows Server 2022 with Active Directory** – [Read More](Active-Directory/Domain-Controller-Setup)  
 ✅ **Ubuntu/Linux Troubleshooting** – [Read More](./linux-troubleshooting.md)  
 ✅ **Microsoft 365 Admin Center** – [Read More](./microsoft-365.md)  
 ✅ **Basic Networking (DNS, DHCP, IP Config)** – [Read More](./networking.md)  
@@ -26,7 +26,7 @@ I have built a **virtual IT lab** on my laptop to practice real-world IT tasks. 
 - Cleared temporary files using `disk cleanup`  
 - Upgraded RAM from 4GB to 8GB  
 **Outcome:** The system performance improved significantly.  
-[Read Full Guide](./slow-windows-fix.md)  
+[Read Full Guide](Troubleshooting/Perfromance-Isuues&Start-up)  
 
 ### **2️⃣ Resetting a Microsoft 365 Password**  
 **Problem:** A user forgot their Microsoft 365 password and couldn’t log in.  
