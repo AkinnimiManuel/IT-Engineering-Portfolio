@@ -1,4 +1,5 @@
 # Freshdesk Setup Guide
+![Freshdesk image](images/freshdesk.png)
 
 Hi! I’m Emmanuel Stefan, and this is my documentation for **Freshdesk**, a cloud-based ticketing system I’ve explored as part of my remote support toolkit. Freshdesk helps manage, prioritize, and resolve support tickets efficiently — making it ideal for both small and large teams.
 
@@ -19,8 +20,14 @@ I chose Freshdesk because:
 1. Visit [https://freshdesk.com](https://freshdesk.com)
 2. Click on **Get Started for Free**
 3. Fill in your name, email, and company name
+![fill in your details](images/01-input-your-details.png)
+
+![choose options](images/02-choose-options.png)
+
 4. You’ll receive a unique Freshdesk subdomain (e.g., `yourcompany.freshdesk.com`)
 5. Verify your email and log in to the dashboard
+![dashboard](images/03-freshdesk-dashboad.png)
+
 
 ---
 
@@ -40,10 +47,12 @@ I chose Freshdesk because:
 - Go to **Admin > Ticket Fields**
 - Add custom fields like “Device Type,” “Urgency Level,” etc., based on your needs
 
-### 4. Automate Workflows
-- Use **Dispatch’r** to auto-assign tickets to specific agents or groups
+### 4. SLA policy
 - Set **SLA policies** for response/resolution times
-- Add **Canned Responses** to quickly reply to common queries
+![SLA policy](images/04-integratedSLA.png)
+![created SLA](images/05-createdSLA.png)
+_ The SLA targets to be met
+![SLA targets](images/06-SLA-Targets.png)
 
 ---
 
