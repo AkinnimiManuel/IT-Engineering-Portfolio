@@ -14,7 +14,6 @@ All tasks were performed in a lab environment to simulate real-world enterprise 
 - ✅ Set up security groups for role-based access control (RBAC)
 - ✅ Manage group memberships effectively
 - ✅ Apply and manage permissions on shared folders
-- ✅ Account lockout and unlocking
 - ✅ Disable and enable accounts
 - ✅ Password reset management
 - ✅ Moving users between OUs
@@ -68,7 +67,7 @@ Created user accounts using the **Active Directory Users and Computers (ADUC)** 
 - Default password set and enforced change at next logon
 
 Example:
-- `Emmanuel Akinnimi` ➔ Username: `Eakinnimi`
+- `Emmanuel Akinnimi` ➔ Username: `E.akinnimi`
 
 ![Creating new users](images/03-creating-new-users.png)
 ![providing the names](images/04-providing-the-name.png)
@@ -177,8 +176,6 @@ Right-clicked the user ➡️ Disable Account.
 
 Right-clicked ➡️ Enable Account.
 
-🔹 Script I Built: Bulk-disable inactive users based on their last logon date:
-
 ---
 
 ### 8. 🎯 Password Reset Management 🔄
@@ -187,7 +184,6 @@ Right-clicked ➡️ Enable Account.
 
 Right-click user ➡️ Reset Password ➡️ Enter new password ➡️ Set options (force change at next logon).
 
-🔹 Script I Created: Reset passwords for multiple users:
 
 ---
 
@@ -202,9 +198,10 @@ Right-click user ➡️ Reset Password ➡️ Enter new password ➡️ Set opti
 ### 10. 🔗 Group Nesting (Group within a Group) 🔗
 
 🔹 I added one group (e.g., Finance_Team) as a member of another group (e.g., All_Employees)!
+
 🔹 In ADUC:
 
-Opened All_Employees group ➡️ Members ➡️ Add ➡️ Selected Finance_Team.
+Opened All_mployees group ➡️ Members ➡️ Add ➡️ Selected Finance_Team.
 
 🔹 This made managing permissions so much easier across departments! 🏢✅
 
@@ -216,7 +213,22 @@ Opened All_Employees group ➡️ Members ➡️ Add ➡️ Selected Finance_Tea
 🔹 After the expiration date, the account was disabled automatically—no manual intervention needed.
 🔹 This feature is super useful for managing contractors, interns, and temp staff! 🚀
 
+---
 
+### 12. Home Folder and Profile Path Management 🏡
+🔹 First, when creating a new user in Active Directory Users and Computers (ADUC), I went to the Profile tab.
+🔹 Under Home folder, I selected Connect and mapped a drive letter (e.g., H:).
+🔹 I specified the path like this: \\ServerName\HomeFolders\username.
+🔹 After clicking Apply, Windows automatically created the folder with the right permissions! 🎯
+
+
+### 13. 7️⃣ Logon Script Assignment 📜
+🔹 While creating or editing a user in ADUC, I went to the Profile tab again.
+🔹 Under Logon script, I typed the name of the script (e.g., logonDriveMap.bat).
+🔹 I placed the actual script inside the \\DomainController\NETLOGON shared folder.
+🔹 When the user logged in, the script executed, mapping network drives automatically! 🖥️🗂️
+
+---
 
 ### 🧠 Challenges Faced
 
