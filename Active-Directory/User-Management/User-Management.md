@@ -19,6 +19,8 @@ All tasks were performed in a lab environment to simulate real-world enterprise 
 - ✅ Moving users between OUs
 - ✅ Group nesting
 - ✅ User Account and expiry date
+- ✅ Home Folder Creation and Mapping (ADUC Manual Setup)
+- ✅ Logon Script Assignment (Drive Mapping with Batch File)
 
 ---
 
@@ -172,9 +174,16 @@ I created shared folders and applied NTFS permissions based on Active Directory 
 
 Right-clicked the user ➡️ Disable Account.
 
+![disable account](images/24-disable-account.png)
+![account disabled](images/25-account-disabled.png)
+
+
 🔹 To enable it later:
 
 Right-clicked ➡️ Enable Account.
+
+![enable account](images/26-enable-account.png)
+
 
 ---
 
@@ -183,6 +192,9 @@ Right-clicked ➡️ Enable Account.
 🔹 Manually reset passwords in ADUC:
 
 Right-click user ➡️ Reset Password ➡️ Enter new password ➡️ Set options (force change at next logon).
+![reset passowrd](images/27-reset-password.png)
+![create a new password](images/28-create-a-new-password.png)
+![password changed](images/29-password-changed.png)
 
 
 ---
@@ -191,6 +203,10 @@ Right-click user ➡️ Reset Password ➡️ Enter new password ➡️ Set opti
 
 🔹 I selected users in ADUC, then right-clicked ➡️ Move ➡️ selected the target OU.
 🔹 Example: From Interns OU ➡️ to FullTimeEmployees OU after confirmation of full-time employment. 🎉
+![move users between OUs](images/30-move-users.png)
+![Select OU](images/31-select-OU.png)
+![User moved](images/32-user-moved.png)
+
 🔹 This demonstrated my understanding of how organizational structures evolve and how to keep AD clean and organized.
 
 ---
@@ -202,6 +218,8 @@ Right-click user ➡️ Reset Password ➡️ Enter new password ➡️ Set opti
 🔹 In ADUC:
 
 Opened All_mployees group ➡️ Members ➡️ Add ➡️ Selected Finance_Team.
+![Nested group](images/33-nested-groups.png)
+![confirm group](images/34-confirm-group-member.png)
 
 🔹 This made managing permissions so much easier across departments! 🏢✅
 
@@ -211,6 +229,9 @@ Opened All_mployees group ➡️ Members ➡️ Add ➡️ Selected Finance_Team
 🔹 I created a temporary user account in ADUC.
 🔹 Under the Account tab, I checked Account expires and set a future date 📅.
 🔹 After the expiration date, the account was disabled automatically—no manual intervention needed.
+![Account Expiry](images/35-account-expiry-date.png)
+![account expired](images/36-account-expired.png)
+
 🔹 This feature is super useful for managing contractors, interns, and temp staff! 🚀
 
 ---
@@ -218,15 +239,29 @@ Opened All_mployees group ➡️ Members ➡️ Add ➡️ Selected Finance_Team
 ### 12. Home Folder and Profile Path Management 🏡
 🔹 First, when creating a new user in Active Directory Users and Computers (ADUC), I went to the Profile tab.
 🔹 Under Home folder, I selected Connect and mapped a drive letter (e.g., H:).
-🔹 I specified the path like this: \\ServerName\HomeFolders\username.
-🔹 After clicking Apply, Windows automatically created the folder with the right permissions! 🎯
+![Home folders](images/37-homefolders.png)
 
+🔹 I specified the path like this: \\TESTDC-01\HomeFolders\%username%.
+![set path](images/38-set-path.png)
+![confirm home folder](images/39-home-folder-confirm.png)
+
+🔹 After clicking Apply, Windows automatically created the folder with the right permissions! 🎯
+- Did the same thing for another user account (j.straut)
+![set path for j.straut](images/40-set-path-for-jstraut.png)
+![account folder](images/41-j.straut-account-home-folder.png)
+
+---
 
 ### 13. 7️⃣ Logon Script Assignment 📜
 🔹 While creating or editing a user in ADUC, I went to the Profile tab again.
 🔹 Under Logon script, I typed the name of the script (e.g., logonDriveMap.bat).
+![logon script](images/42-logon-script.png)
+
 🔹 I placed the actual script inside the \\DomainController\NETLOGON shared folder.
+![script in netlogon folder](images/43-script-logon.png)
+
 🔹 When the user logged in, the script executed, mapping network drives automatically! 🖥️🗂️
+![shared folder mapped auto](images/44-shared-folder-mapped.png)
 
 ---
 
@@ -244,7 +279,6 @@ Opened All_mployees group ➡️ Members ➡️ Add ➡️ Selected Finance_Team
 
 - The importance of having a well-organized Active Directory structure
 - How group-based permission management simplifies administration
-- How password policies and account lockout policies help strengthen security
 - How to troubleshoot common permission issues when users have access problems
 
 ---
