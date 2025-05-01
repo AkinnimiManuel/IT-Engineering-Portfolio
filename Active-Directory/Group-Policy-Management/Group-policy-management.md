@@ -1,45 +1,92 @@
 # 🛠️ GPO Projects
 
-## 1. Enforce Password Policy 🔐
+## A. Enforce Password Policy and lockout policy 🔐
 
-**Steps:**
+**Steps I took:**
 
-1. Open **GPMC** → Create GPO → Name: `Password Enforcement Policy`.
+1. I opened **GPMC** → Create GPO → Name: `Password Enforcement Policy`.
+![Create GPO](images/01-New-GPO.png)
 2. Edit GPO:  
    `Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy`.
-3. Configure password rules (length, complexity, expiration).
-4. Link GPO to domain.
-5. Run `gpupdate /force` and test.
+![Edit policy](images/02-password-policies.png)
+3. Configure password rules (length, complexity, expiration) and also the lockout policy (invalid lockout attempts)
+![edit policy ](images/03-lockout-policy.png)
+4. Run `gpupdate /force` and test.
+![GP update](images/04-force-GPO.png)
+5. After forcing GPO update, the user account connected to the domain was still not locking out after 3 invalid attempts. So i troubleshoot with 
+
+`rsop.msc`
+
+![RSOP policy troubleshooting](05-rsop-msc.png)
+
+6. Checked the precedence of the GPOs and found out the dafault domain policy already has a password lockout defined and was applied first to the user
+
+![Check the precedence](images/06-precedence.png)
+
+7. I went back to the GPMC and un-checked the define this policy for the default domain policy
+![Un-checked policy](images/07-un-define-policy.png)
+
+8. My GPO now appying to the users in the domain
+![GPO applied](images/08-gpo-working.png)
+
+### Testing the Password GPO policy
+
+9. Logged into the user pc (windows 10 client VM) on my virtual lab and intentionally typed the worng password 3 times and the account was locked😁✅
+![account locked](images/09-testing-GPO.png)
+
+10. I went back to the ADUC to unlock the accoount.
+![unlock account](images/10-unlock-account.png)
 
 ---
 
-## 2. Disable USB Storage Access 🔌🚫
+## B. Disable USB Storage Access 🔌🚫
 
-**Steps:**
+**Steps I took:**
 
 1. Create GPO: `Block USB Storage`.
+![create GPO](images/11-Block-usb-storage.png)
+
 2. Edit GPO:  
    `Computer Configuration → Policies → Administrative Templates → System → Removable Storage Access`.
+![Removable access media](images/12-removable-storage.png)
 3. Enable "Deny all access."
-4. Link to target OU.
+![Enable deny access](images/13-enable-deny-access.png)
+4. Force update
+![force update](images/14-force-update.png)
 5. Insert USB and verify it gets blocked.
+![block removable media](images/15-block-removable-media.png)
+
 
 ---
 
-## 3. Automatically Install Software (Chrome Deployment) 🖥️
+## C. Automatically Install Software (Chrome Deployment) 🖥️
 
-**Steps:**
+**Steps I took:**
 
-1. Host `.msi` file on network share.
+1. Created a folder called Chrome deployment and Host `.msi` file on network share.
+![chrome msi file](images/16-chrome-msi-file.png)
+![create share](images/17-create-share.png)
 2. Create GPO: `Chrome Deployment Policy`.
+![create GPO](images/18-link-GPO.png)
 3. Edit GPO:  
    `Computer Configuration → Policies → Software Settings → Software Installation`.
 4. Add MSI package from shared path.
-5. Link GPO to target OU → Restart client machine → Chrome installs.
+![Add package](images/19-select-the-package.png)
+![Assign package](images/20-assign-package.png)
+![chrome assigned](images/21-chrome-assigned.png)
+
+5. Ran "Gpupdate / force" 
+![Force Gpupdate](images/22-gp-update.png)
+6. Restart PC
+![Restart PC](images/23-restart-PC.png)
+7. Chrome installed automatically on Domain PC
+![chrome installed](images/24-chrome-installed.png)
+8. Force GPupdate again
+![Force update again](images/25-force-update-again.png)
 
 ---
 
-## 4. Configure Automatic Windows Updates ⚙️
+## D. Configure Automatic Windows Updates ⚙️
 
 **Steps:**
 
@@ -52,20 +99,7 @@
 
 ---
 
-## 5. Enforce Account Lockout Policy 🚪🔒
-
-**Steps:**
-
-1. Create GPO: `Account Lockout Policy`.
-2. Edit GPO:  
-   `Computer Configuration → Policies → Windows Settings → Security Settings → Account Lockout Policy`.
-3. Set lockout threshold, lockout duration, reset time.
-4. Link to domain.
-5. Test with wrong password attempts.
-
----
-
-## 6. Display Legal Notice Before Login 📜
+## E. Display Legal Notice Before Login 📜
 
 **Steps:**
 
@@ -78,7 +112,7 @@
 
 ---
 
-## 7. Redirect Documents Folder to Network Share 📂
+## F. Redirect Documents Folder to Network Share 📂
 
 **Steps:**
 
@@ -91,7 +125,7 @@
 
 ---
 
-## 8. Prevent Access to Control Panel and Settings 🛑
+## G. Prevent Access to Control Panel and Settings 🛑
 
 **Steps:**
 
@@ -104,7 +138,7 @@
 
 ---
 
-## 9. Desktop Wallpaper Enforcement 🎨
+## H. Desktop Wallpaper Enforcement 🎨
 
 **Steps:**
 
@@ -117,7 +151,7 @@
 
 ---
 
-## 10. Set Screen Saver Lock After Inactivity 💤🔒
+## I. Set Screen Saver Lock After Inactivity 💤🔒
 
 **Steps:**
 
