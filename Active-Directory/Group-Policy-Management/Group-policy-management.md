@@ -17,7 +17,7 @@
 
 `rsop.msc`
 
-![RSOP policy troubleshooting](05-rsop-msc.png)
+![RSOP policy troubleshooting](images/05-rsop-msc.png)
 
 6. Checked the precedence of the GPOs and found out the dafault domain policy already has a password lockout defined and was applied first to the user
 

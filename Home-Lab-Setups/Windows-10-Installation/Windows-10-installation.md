@@ -25,7 +25,7 @@ In this project, I installed Windows 10 on a **VMware Workstation** virtual mach
 3. Assigned the VM name: `CLIENT-02`.
 4. Set disk size to **40 GB** (split into multiple files).
 5. Assigned **2 GB RAM** and **2 processors** to the VM.
-6. Used **Bridged Networking** so the VM would be on the same LAN as the domain controller.
+6. Used **NAT adapter** so the VM would be on the same LAN as the domain controller.
 7. Completed the wizard and powered on the virtual machine.
 
 ![Allocate resources](images/01a-allocated-resources.png)
