@@ -60,13 +60,19 @@ In this project, I installed Windows 10 on a **VMware Workstation** virtual mach
 ### 🌐 Part 3: Configuring Network & DNS Settings
 
 1. Opened **Control Panel > Network and Sharing Center > Change adapter settings**.
+![change adpater settings](images/6a-change-adapter-settings.png)
+
 2. Right-clicked **Ethernet** adapter ➡ Clicked **Properties**.
+![select ethernet properties](images/6b-ethernet-properties.png)
 3. Selected **Internet Protocol Version 4 (TCP/IPv4)** ➡ Clicked **Properties**.
+![Select ipv4 settings ](images/6c-ipv4-settings.png)
 4. Manually configured DNS settings to point to the domain controller:
    ```text
    Preferred DNS Server: 192.168.255.210
    Alternate DNS Server: (left blank)
    ```
+   ![DNS settings](images/6d-DNS-seetings.png)
+
 5. Saved changes and closed all windows.
 
 ---
