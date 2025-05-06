@@ -11,9 +11,8 @@ Welcome to my IT Engineering Portfolio! This is where I showcase my skills in tr
 I have built a **virtual IT lab** on my laptop to practice real-world IT tasks. Here are some key setups:  
 
 ✅ **Windows Server 2022 with Active Directory** – [Read More](Active-Directory/Domain-Controller-Setup)  
-✅ **Ubuntu/Linux Troubleshooting** – [Read More](./linux-troubleshooting.md)  
 ✅ **Microsoft 365 Admin Center** – [Read More](./microsoft-365.md)  
-✅ **Basic Networking (DNS, DHCP, IP Config)** – [Read More](./networking.md)  
+✅ **Basic Networking (DNS, DHCP, IP Config)** – [Read More](./networking.md)
 
 ---
 
@@ -37,13 +36,16 @@ I have built a **virtual IT lab** on my laptop to practice real-world IT tasks. 
 [Read Full Guide](./microsoft-365-password-reset.md)  
 
 ### **3️⃣ Troubleshooting a Network Issue**  
-**Problem:** A user couldn’t connect to Wi-Fi.  
+**Problem:** A user Laptop was connected to Wi-Fi but no internet  
 **Solution:**  
 - Ran `ipconfig /all` to check the IP configuration  
-- Restarted the router and renewed the IP address  
-- Found an IP conflict and reassigned a static IP  
+- Checked proxy and DNS configuration
+- Used the built-in troubleshooter
+- Ran key commands via CMD
+- Updated the Wi-Fi adapter
+
 **Outcome:** The connection was restored successfully.  
-[Read Full Guide](./network-troubleshooting.md)  
+[Read Full Guide](Troubleshooting/WIFI-issues/WIFI-issues.md)  
 
 
 ## 🏆 Skills & Technologies  
