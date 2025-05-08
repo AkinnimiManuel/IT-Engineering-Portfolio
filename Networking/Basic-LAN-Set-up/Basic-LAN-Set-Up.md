@@ -66,7 +66,7 @@ do wr
 
 ```bash
 interface GigabitEthernet0/0
- ip address 192.168.10.1 255.255.255.0
+ ip address 192.168.1.1 255.255.255.0
 exit
 
 ip dhcp pool WiredLAN
@@ -75,6 +75,21 @@ ip dhcp pool WiredLAN
  
 ```
 ![Set up DHCP](images/07-set-up-DHCP.png)
+
+#### 🌐 Router Configuration (WLAN Side)
+
+```bash
+interface GigabitEthernet0/1
+ ip address 192.168.2.1 255.255.255.0
+exit
+
+ip dhcp pool WirelessLAN
+ network 192.168.2.0 255.255.255.0
+ default-router 192.168.2.1
+
+```
+![Set up DHCP](images/07-set-up-DHCP.png)
+
 
 ### 3️⃣ Wireless Router & WLAN
 
