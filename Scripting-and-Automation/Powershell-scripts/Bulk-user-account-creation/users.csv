@@ -1,0 +1,4 @@
+FirstName,LastName,Username,Password,OU
+John,Doe,jdoe,Pa$$w0rd123,"OU=Staff,DC=yourdomain,DC=com"
+Jane,Smith,jsmith,Pa$$w0rd456,"OU=Teachers,DC=yourdomain,DC=com"
+Alice,Johnson,ajohnson,Pa$$w0rd789,"OU=Students,DC=yourdomain,DC=com"
