@@ -66,7 +66,7 @@ This guide documents how I installed **Ubuntu** inside **VMware Workstation**, i
 ## 🖥️ First Boot & Setup
 
 Once the VM restarts:
-- Log in using the username and password you created
+- Log in using the username and password I created
 ![Log in](images/13-log-in.png)
 ![welcome note](images/14-welcome-Note.png)
 ![ubuntu ready](images/15-ubuntu-ready.png)
@@ -74,6 +74,14 @@ Once the VM restarts:
 ![system information](images/16-about-system.png)
 - Open Terminal to start exploring!
 ![Terminal commands](images/17-terminal-commands.png)
+```bash
+uname -a
+hostname
+whoami
+pwd
+ls
+mkdir
+```
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -82,10 +90,11 @@ sudo apt update && sudo apt upgrade -y
 
 ---
 
-## ✅ What You Can Do With It
+## ✅ What I plan to do With It
 
 * 🧪 Test Linux commands and bash scripting
-* 💻 Practice software development (Python, Node.js, etc.)
+* 🕸 Set up SSH access and firewall rules
+* 💻 Configure a basic web server
 * 🔐 Experiment with tools like Docker, SSH, Git
 * 🌍 Browse and access the internet in a secure VM
 
