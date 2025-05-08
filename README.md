@@ -12,7 +12,7 @@ I have built a **virtual IT lab** on my laptop to practice real-world IT tasks. 
 
 ✅ **Windows Server 2022 with Active Directory** – [Read More](Active-Directory/Domain-Controller-Setup)  
 ✅ **Microsoft 365 Admin Center** – [Read More](./microsoft-365.md)  
-✅ **Basic Networking (DNS, DHCP, IP Config)** – [Read More](./networking.md)
+✅ **Basic Networking (DNS, DHCP, IP Config)** – [Read More](Networking/Basic-LAN-Set-up)
 
 ---
 
