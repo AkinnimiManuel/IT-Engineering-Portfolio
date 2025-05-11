@@ -91,11 +91,17 @@
 **Steps:**
 
 1. Create GPO: `Windows Update Policy`.
+![Create windows os GPO](images/26-create-windwos-update.png)
 2. Edit GPO:  
    `Computer Configuration → Policies → Administrative Templates → Windows Components → Windows Update`.
+![windows update](images/27-configure-windows-updates.png)
 3. Configure Automatic Updates policy.
-4. Link to device OU.
+![configure settings](images/28-configure-settings.png)
+
+4. Force GPO.
+![force GPO](images/29-force-GPO.png)
 5. Check client update settings.
+![Check client VM](images/30-auto-downlaod.png)
 
 ---
 
@@ -104,63 +110,48 @@
 **Steps:**
 
 1. Create GPO: `Login Legal Notice`.
+![create GPO](images/31-create-GPO.png)
 2. Edit GPO:  
    `Computer Configuration → Policies → Windows Settings → Security Settings → Local Policies → Security Options`.
 3. Set "Interactive logon: Message title" and "Message text."
-4. Link to domain.
-5. Test login process to verify.
+![interactive message title](images/32-interactive-logon-title.png)
+![interactive message text](images/33-login-message.png)
+4. Test login process to verify.
+![test login message](images/33a-login-notice-active.png)
 
 ---
 
-## F. Redirect Documents Folder to Network Share 📂
+## F. Prevent Access to Control Panel and Settings 🛑
 
 **Steps:**
 
-1. Set up a shared folder (e.g., `\\server\DocumentsRedirect`).
-2. Create GPO: `Documents Redirection`.
-3. Edit GPO:  
-   `User Configuration → Policies → Windows Settings → Folder Redirection → Documents`.
-4. Set Basic redirection to shared folder.
-5. Test file creation and redirection.
-
----
-
-## G. Prevent Access to Control Panel and Settings 🛑
-
-**Steps:**
-
-1. Create GPO: `Disable Control Panel`.
+1. Create GPO: `Disable Control Panel` and linked to user's OU.
+![create GPO](images/34-disabl-CP.png)
 2. Edit GPO:  
    `User Configuration → Policies → Administrative Templates → Control Panel`.
+![Edit GPO](images/35-edit-GPO.png)
 3. Enable "Prohibit access to Control Panel and PC settings."
-4. Link GPO to user OU.
-5. Verify restriction.
+![Enable GPO](images/36-enable-GPO.png)
+4. Verify restriction.
+![test GPO](images/37-test-GPO.png)
 
 ---
 
-## H. Desktop Wallpaper Enforcement 🎨
+## G. Desktop Wallpaper Enforcement 🎨
 
 **Steps:**
 
 1. Share a wallpaper image.
+![share folder](images/38-create-wallpaper-folder.png)
 2. Create GPO: `Set Desktop Wallpaper`.
+![create GPO](images/39-create-wallpaper-GPO.png)
 3. Edit GPO:  
    `User Configuration → Policies → Administrative Templates → Desktop → Desktop`.
+![Edit wallaper GPO](images/40-desktop-settings.png)
 4. Configure wallpaper path and style (Fill, Center, etc.).
+![Wallaper settings](images/41-name-the-wallpaper.png)
 5. Apply and verify on user desktops.
-
----
-
-## I. Set Screen Saver Lock After Inactivity 💤🔒
-
-**Steps:**
-
-1. Create GPO: `Screen Saver Timeout`.
-2. Edit GPO:  
-   `User Configuration → Policies → Administrative Templates → Control Panel → Personalization`.
-3. Enable screen saver, set timeout, password protect.
-4. Link to user OU.
-5. Test idle lockout behavior.
+![test GPO](images/42-wallaper-set.png)
 
 ---
 
@@ -168,4 +159,3 @@
 
 By carrying out these GPO projects, I’ve gained solid hands-on experience configuring and securing an Active Directory environment. 📚✨  
 I continue expanding my lab environment with more real-world scenarios to sharpen my system administration skills! 🚀
-
