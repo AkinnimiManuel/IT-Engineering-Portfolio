@@ -1,21 +1,33 @@
+# Import the Active Directory module
 Import-Module ActiveDirectory
 
-$UserList = Import-Csv -Path "C:\Scripts\users.csv"
+# Path to the CSV file
+$csvPath = "C:\Users\Administrator\Documents\New-users\manueltech_users.csv"
 
-foreach ($User in $UserList) {
-    $FullName = "$($User.FirstName) $($User.LastName)"
-    $UserPrincipalName = "$($User.Username)@yourdomain.com"
-    
-    New-ADUser `
-        -Name $FullName `
-        -GivenName $User.FirstName `
-        -Surname $User.LastName `
-        -SamAccountName $User.Username `
-        -UserPrincipalName $UserPrincipalName `
-        -AccountPassword (ConvertTo-SecureString $User.Password -AsPlainText -Force) `
-        -Path $User.OU `
-        -Enabled $true `
-        -ChangePasswordAtLogon $true
+# Import the CSV data
+$users = Import-Csv -Path $csvPath
 
-    Write-Host "✅ Created: $FullName"
+foreach ($user in $users) {
+    $securePassword = ConvertTo-SecureString $user.Password -AsPlainText -Force
+
+    try {
+        New-ADUser `
+            -Name "$($user.FirstName) $($user.LastName)" `
+            -GivenName $user.FirstName `
+            -Surname $user.LastName `
+            -SamAccountName $user.Username `
+            -UserPrincipalName $user.EmailAddress `
+            -AccountPassword $securePassword `
+            -Enabled $true `
+            -Path $user.OrganizationUnit `
+            -Description $user.Description `
+            -Title $user.JobTitle `
+            -OfficePhone $user.OfficePhone `
+            -EmailAddress $user.EmailAddress `
+            -ChangePasswordAtLogon 1 
+
+        Write-Host "Created user: $($user.Username)" -ForegroundColor Green
+    } catch {
+        Write-Host "Failed to create user: $($user.Username). Error: $_" -ForegroundColor Red
+    }
 }

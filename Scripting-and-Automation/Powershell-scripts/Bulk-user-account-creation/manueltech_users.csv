@@ -1,0 +1,101 @@
+FirstName,LastName,Username,Password,OrganizationUnit,Description,EmailAddress,JobTitle,OfficePhone,Enabled
+Amanda,Bradley,abradley,OTu4E@zQXm)$,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,abradley@manueltech.com,Tree surgeon,9864652518,FALSE
+Andrea,Rose,arose,^4esf1Iiu)h9,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,arose@manueltech.com,Dramatherapist,822-538-0274,FALSE
+Heather,Peterson,hpeterson,!5V6v+dHBsK5,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,hpeterson@manueltech.com,Technical brewer,(845)324-7268,TRUE
+Ashley,Simmons,asimmons,#4cOgk2Rl7DP,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,asimmons@manueltech.com,Outdoor activities/education manager,(355)139-9074,FALSE
+Miranda,Williams,mwilliams,A)7E)HdVCh9J,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,mwilliams@manueltech.com,IT technical support officer,689.390.8514x73518,FALSE
+Cynthia,Guzman,cguzman,h0rn1FtzAS8^,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,cguzman@manueltech.com,Hospital pharmacist,159-388-3714,FALSE
+Eric,Hart,ehart,7Ji7&K3w3hs),"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,ehart@manueltech.com,Dance movement psychotherapist,001-594-838-4355x826,TRUE
+Janice,Bond,jbond,CcPFD(lC&3g0,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,jbond@manueltech.com,Editorial assistant,(995)886-0345x8081,FALSE
+Peter,Howard,phoward,_v7NPjy5yHpH,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,phoward@manueltech.com,Geophysical data processor,(439)695-2261x78088,FALSE
+Raymond,Moran,rmoran,+6paiy(6_vYk,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,rmoran@manueltech.com,Geochemist,(298)340-0163x53631,TRUE
+Michelle,Tucker,mtucker,IBx1WC_cAz!^,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,mtucker@manueltech.com,"Accountant, chartered management",(284)286-9687x39825,TRUE
+Katherine,Pena,kpena,*(u)79UxtXIZ,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,kpena@manueltech.com,Product manager,001-000-229-7708x7490,FALSE
+Monica,Reynolds,mreynolds,1x+1$jUAt#7V,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,mreynolds@manueltech.com,Ecologist,543.299.3513x0450,FALSE
+Wayne,Cline,wcline,%Re11Zg%11^i,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,wcline@manueltech.com,"Designer, jewellery",(923)123-9250,FALSE
+James,Goodwin,jgoodwin,A&29fJ(bzkO!,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,jgoodwin@manueltech.com,Field trials officer,226-093-5924,FALSE
+Gloria,Lee,glee,j1ij6AxlD*dj,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,glee@manueltech.com,"Pharmacist, hospital",614.024.4382x4266,FALSE
+Joshua,Cameron,jcameron,Ec9LwwdS(szv,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,jcameron@manueltech.com,IT technical support officer,2728178268,FALSE
+Sean,Walker,swalker,^0cAYveu39PS,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,swalker@manueltech.com,Retail buyer,(822)530-8542x544,TRUE
+Victoria,Frazier,vfrazier,XF9^6aO(((9S,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,vfrazier@manueltech.com,"Teacher, music",001-347-429-9638x1073,FALSE
+Juan,Webster,jwebster,UAYPzIKj(MI4,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,jwebster@manueltech.com,Logistics and distribution manager,(547)033-2504,TRUE
+Ryan,Martinez,rmartinez,SNbajXzd0#$0,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,rmartinez@manueltech.com,Mechanical engineer,984-381-9584x746,TRUE
+Denise,Cruz,dcruz,!5Svt+h(OVF1,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,dcruz@manueltech.com,Data scientist,512-281-1698,TRUE
+Mackenzie,Mendoza,mmendoza,@*7AkAF%pX6g,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,mmendoza@manueltech.com,Microbiologist,-10140,TRUE
+Bridget,Day,bday,91LI@pLK*GX&,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,bday@manueltech.com,Speech and language therapist,(902)015-2617x3315,FALSE
+Donald,Bird,dbird,!5RyMbiOIqh8,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,dbird@manueltech.com,"Administrator, education",623.437.4325x9685,TRUE
+Edwin,Ramirez,eramirez,p&%h!1m)2o0J,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,eramirez@manueltech.com,"Pharmacist, hospital",(432)740-7703,TRUE
+Paul,Mason,pmason,Bn7^@dq5I+XU,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,pmason@manueltech.com,Community arts worker,529.397.7534x293,TRUE
+Adrienne,Bautista,abautista,pAI#Gcb&%9d@,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,abautista@manueltech.com,"Teacher, special educational needs",(044)427-4317x76004,FALSE
+Ashley,Wilson,awilson,$aaqBTIX_27A,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,awilson@manueltech.com,"Journalist, newspaper",504.963.9213,TRUE
+Eric,Webster,ewebster,%3AnyXhw3wHU,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,ewebster@manueltech.com,"Engineer, civil (consulting)",231.653.2005x479,FALSE
+Tammy,Hall,thall,BkYS&Hrh)3Bx,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,thall@manueltech.com,Theatre manager,001-580-158-5413x83977,TRUE
+Linda,Watson,lwatson,dyyKp8al*2A!,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,lwatson@manueltech.com,"Surveyor, building control",560-334-2617,FALSE
+Steven,Werner,swerner,+FxFD(W(y5gc,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,swerner@manueltech.com,Amenity horticulturist,001-394-102-3500x0736,FALSE
+Lisa,Nelson,lnelson,N+c+41Mr5CK+,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,lnelson@manueltech.com,"Engineer, maintenance (IT)",779-768-1763x48435,TRUE
+Tommy,Herman,therman,y%1OFYr3hv2D,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,therman@manueltech.com,"Radiographer, therapeutic",651-760-6295,FALSE
+Michelle,Moore,mmoore,)q*1f6_@cNIg,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,mmoore@manueltech.com,Multimedia programmer,338.220.2571x07388,FALSE
+Alexandra,King,aking,$0v_(J%ouzvI,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,aking@manueltech.com,Careers adviser,+1-600-521-1730x684,TRUE
+Gerald,Villanueva,gvillanueva,9&9sLEKp*TKF,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,gvillanueva@manueltech.com,Location manager,(482)773-1848x055,FALSE
+Kayla,Kelley,kkelley,#+7AANh3A3+R,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,kkelley@manueltech.com,Set designer,+1-870-617-9610x11764,TRUE
+Courtney,James,cjames,*2%r5*JbxZ3a,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,cjames@manueltech.com,Research scientist (physical sciences),887.872.1982x69512,TRUE
+Gregory,Hart,ghart,@hhU^uR9DM3X,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,ghart@manueltech.com,Medical physicist,001-153-796-7271x720,FALSE
+Jeff,Mcmillan,jmcmillan,sa_N&T3a$KG7,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,jmcmillan@manueltech.com,"Designer, textile",146-823-7597x58401,TRUE
+Eric,Bartlett,ebartlett,5Rksrsya%3bA,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,ebartlett@manueltech.com,Museum/gallery conservator,323-741-9936,FALSE
+Richard,Lewis,rlewis,_VKqHthTmp5K,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,rlewis@manueltech.com,Clinical cytogeneticist,510-884-7179,TRUE
+Scott,Anderson,sanderson,q5mO1QWz$x2+,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,sanderson@manueltech.com,"Engineer, mining",940-533-8150x8718,FALSE
+Timothy,Arroyo,tarroyo,a32WZl9d(CF#,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,tarroyo@manueltech.com,Bonds trader,(343)715-2089,TRUE
+Robin,Garcia,rgarcia,$2#huzdwcM0Q,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,rgarcia@manueltech.com,"Psychologist, counselling",269-037-4191,TRUE
+Ashlee,Hoffman,ahoffman,DpIjUOuvaa&1,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,ahoffman@manueltech.com,"Development worker, international aid",112-440-9411x0649,FALSE
+Joel,Wilson,jwilson,^2^5A9kPCftb,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,jwilson@manueltech.com,Diplomatic Services operational officer,-4108,TRUE
+Kathleen,Weber,kweber,%6^jia#kM7Hp,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,kweber@manueltech.com,Operational investment banker,346-460-4058,FALSE
+Daniel,Cox,dcox,@FeCiyUv%&3$,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,dcox@manueltech.com,Print production planner,001-116-635-2809x5219,FALSE
+Joyce,Smith,jsmith,s8*_cff8^QWx,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,jsmith@manueltech.com,Medical secretary,(612)967-9309,FALSE
+Karen,Garcia,kgarcia,B0qDPb35^mea,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,kgarcia@manueltech.com,Technical sales engineer,001-445-030-7292x955,FALSE
+Jonathan,Gomez,jgomez,k65vxEYm#t4n,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,jgomez@manueltech.com,Tax inspector,001-650-806-2970x32501,TRUE
+Sarah,Glover,sglover,f@J1oB9jMSeO,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,sglover@manueltech.com,Public house manager,696.541.5637x559,FALSE
+Tammy,Sims,tsims,g&qK@Xf$#S5#,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,tsims@manueltech.com,Set designer,001-962-247-6006x692,TRUE
+Monica,Nash,mnash,m*9_NAc6Zl)#,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,mnash@manueltech.com,Consulting civil engineer,479.474.1534x07042,FALSE
+Shelly,Moore,smoore,f&+3ZKwP*rfU,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,smoore@manueltech.com,"Physicist, medical",423-159-7096x151,TRUE
+Mark,Wagner,mwagner,HTj!hm*E20Xy,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,mwagner@manueltech.com,"Biochemist, clinical",(649)013-7613x0023,FALSE
+Dylan,Edwards,dedwards,^%Aq4bBkA56H,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,dedwards@manueltech.com,Building control surveyor,-8016,FALSE
+George,Norris,gnorris,$N14I6km(Gzl,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,gnorris@manueltech.com,Chief Executive Officer,5882833742,FALSE
+Tammy,Rodriguez,trodriguez,$9Zs%XdZ@VES,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,trodriguez@manueltech.com,Architectural technologist,944-067-1457,TRUE
+Taylor,Ali,tali,!CvlLfbT3_P3,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,tali@manueltech.com,"Designer, jewellery",733-049-1634x128,TRUE
+Claire,Black,cblack,E*JIJUteRo7E,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,cblack@manueltech.com,English as a second language teacher,(594)595-5133,FALSE
+Kristin,Baker,kbaker,u)hNl1qsOS1s,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,kbaker@manueltech.com,Legal secretary,782.838.2618,TRUE
+Andrew,Sanders,asanders,O16tHp5p$zTb,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,asanders@manueltech.com,Cytogeneticist,001-452-397-5492x59974,TRUE
+Alyssa,Vega,avega,+y+1+dAV(CIy,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,avega@manueltech.com,Therapeutic radiographer,001-163-600-5252x927,FALSE
+Justin,Ramsey,jramsey,$%7QUiaJek@1,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,jramsey@manueltech.com,"Designer, blown glass/stained glass",542.178.8408x090,TRUE
+Jeffrey,Brown,jbrown,k*%k0Jp5Wd#6,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,jbrown@manueltech.com,Merchant navy officer,001-421-596-3017x2940,FALSE
+Amy,Lawrence,alawrence,x%^PGQ^q_m*4,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,alawrence@manueltech.com,Commercial horticulturist,-4982,FALSE
+Matthew,Page,mpage,%tK8wR5aaxAt,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,mpage@manueltech.com,Comptroller,8943726266,FALSE
+Brittany,Thomas,bthomas,2V9M@aho*WTK,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,bthomas@manueltech.com,Illustrator,001-828-899-1229x95105,FALSE
+Andrew,Hays,ahays,lKoZ9jcd@4lO,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,ahays@manueltech.com,Glass blower/designer,094-548-7993x3612,FALSE
+John,Barr,jbarr,@!U!7dLm5GXy,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,jbarr@manueltech.com,Glass blower/designer,259-314-4789x40931,FALSE
+Megan,Rodriguez,mrodriguez,_W8Lfb8un!iN,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,mrodriguez@manueltech.com,Dentist,001-795-370-2028,TRUE
+Amanda,Wright,awright,%WvliZ%V77DP,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,awright@manueltech.com,"Editor, commissioning",(354)650-1829x22803,FALSE
+Ryan,Santiago,rsantiago,Z+053pGkmUUk,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,rsantiago@manueltech.com,"Conservator, furniture",656.070.5513x1165,FALSE
+Antonio,Rodriguez,arodriguez,)9HqXacpOs7%,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,arodriguez@manueltech.com,Visual merchandiser,(317)742-8754x97005,FALSE
+Veronica,Miller,vmiller,(8IXKHo)D1_S,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,vmiller@manueltech.com,Land,(230)892-4517x987,FALSE
+Jeffery,Johnson,jjohnson,zk%3Prqj*c2t,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,jjohnson@manueltech.com,Analytical chemist,(482)101-5718x59390,FALSE
+Alexis,Jones,ajones,kQ*LIhWu^_3i,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,ajones@manueltech.com,Food technologist,083-096-7314x70356,FALSE
+Gregory,Richard,grichard,6BKTAfxZ@c7o,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,grichard@manueltech.com,Haematologist,+1-311-136-1890x4478,TRUE
+Tammy,English,tenglish,%KW0VdFd3C&c,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,tenglish@manueltech.com,Horticultural therapist,(002)175-9595,FALSE
+Joseph,Lee,jlee,vI5YnYqTl^xG,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,jlee@manueltech.com,Interpreter,001-056-321-1857,TRUE
+Michelle,Shields,mshields,(hig0MBrAs^7,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,mshields@manueltech.com,Advertising art director,068-852-2661,FALSE
+Wayne,Webb,wwebb,g(9^M7dD@ZY^,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,wwebb@manueltech.com,Water engineer,075-726-1039,FALSE
+Bryan,Moore,bmoore,E7dF%I4f$OPj,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,bmoore@manueltech.com,Purchasing manager,-8098,TRUE
+Samantha,Rasmussen,srasmussen,_vqTANLqLu#6,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,srasmussen@manueltech.com,Fashion designer,267.441.1127x008,TRUE
+Leslie,Davidson,ldavidson,3Al2wdRs!3*G,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,ldavidson@manueltech.com,Pensions consultant,(286)557-8261x19143,FALSE
+Nicholas,Wise,nwise,P9D2LWo9_l$1,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,nwise@manueltech.com,Customer service manager,(018)051-7153,FALSE
+Erik,Phillips,ephillips,bSOvsGhh)5@2,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,ephillips@manueltech.com,Call centre manager,601-905-0615x515,FALSE
+Melanie,Moon,mmoon,P6lz4rDA^4JI,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,mmoon@manueltech.com,Medical physicist,471-390-1173,FALSE
+Jasmine,Mckinney,jmckinney,(i5sLYBDH4SQ,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,jmckinney@manueltech.com,Stage manager,(442)797-7867x447,TRUE
+Teresa,Chavez,tchavez,g$3Fv+*cJGGm,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,tchavez@manueltech.com,Recruitment consultant,(975)945-1944,TRUE
+Keith,Jackson,kjackson,8rZ0ukF4(khq,"OU=USERS,OU=LAGOS,DC=manueltech,DC=com",Users user account,kjackson@manueltech.com,"Designer, television/film set",008.297.4575,TRUE
+Jessica,Blackwell,jblackwell,_qZI^SZt+7dN,"OU=INTERNS,OU=LAGOS,DC=manueltech,DC=com",Interns user account,jblackwell@manueltech.com,Trading standards officer,+1-610-056-6742x50392,FALSE
+Mary,Johnson,mjohnson,%3xXWd#d_h8J,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,mjohnson@manueltech.com,"Surveyor, commercial/residential",783-146-2947x3231,FALSE
+Robert,Mclaughlin,rmclaughlin,j)S$F+p6$A8n,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,rmclaughlin@manueltech.com,Osteopath,1880031657,FALSE
+Shelley,Lutz,slutz,&M#w1hkOwU9U,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,slutz@manueltech.com,Forensic psychologist,715.477.6248x36378,FALSE
+Lance,Christian,lchristian,uMFVhHrg)4UO,"OU=FULL TIME EMPLOYEES,OU=LAGOS,DC=manueltech,DC=com",Full Time Employees user account,lchristian@manueltech.com,"Research officer, government",+1-391-118-3092x4565,FALSE
