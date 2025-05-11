@@ -13,13 +13,14 @@ The new groups are created under:
 
 ## ✅ Existing Groups
 
-These groups were already in place(They weare manually created):
+These groups were already in place(They were manually created):
 
 - 🖥️ IT Support  
 - 🧑‍💼 HR  
 - 💰 Finance  
 - 📞 Customer Service
 
+![manual groups](images/06-manual-group.png)
 ---
 
 ## ➕ New Groups to be Created
