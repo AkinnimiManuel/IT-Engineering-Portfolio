@@ -83,7 +83,7 @@ This project documents how I set up a full-fledged **DNS infrastructure** for my
    ![Secondary](images/34-secondary-zone.png)
    - Zone name: `manueltech.com`
    ![Zone name](images/35-zone-name.png)
-4. Entered master server IP: `192.168.1.10` (IP of TESTDC-01).
+4. Entered master server IP: `192.168.255.210` (IP of TESTDC-01).
 ![IP](images/36-add-primary-zone-server.png)
 5. Zone successfully pulled zone data from the primary 💪🏽.
 ![Zone active](images/38-zone-active.png)
