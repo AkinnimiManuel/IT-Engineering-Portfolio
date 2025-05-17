@@ -126,7 +126,7 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 
 ✅ Metrics will start appearing shortly under **Monitoring → Hosts**
 ![Host running](images/12-host-running-on-server.png)
-![CPU usage](iamges/13-cpu-usage.png)
+![CPU usage](images/13-cpu-usage.png)
 
 
 ---
